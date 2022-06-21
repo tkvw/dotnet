@@ -42,3 +42,10 @@ nuke :add-package Nuke.Components # Build like a pro and use build default compo
 git add .
 git commit -m "Added nuke components"
 ```
+
+
+# Running tests
+
+```
+nuke test
+```

@@ -87,7 +87,8 @@
               "Milestone",
               "Pack",
               "Release",
-              "Restore"
+              "Restore",
+              "Test"
             ]
           }
         },
@@ -107,7 +108,8 @@
               "Milestone",
               "Pack",
               "Release",
-              "Restore"
+              "Restore",
+              "Test"
             ]
           }
         },

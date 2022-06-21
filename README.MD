@@ -38,4 +38,7 @@ nuke :add-package GitVersion.Tool
 # Create global.json file to set sdk used to run nuke build process
 git add global.json
 git commit -m "Added global.json"
+nuke :add-package Nuke.Components # Build like a pro and use build default components
+git add .
+git commit -m "Added nuke components"
 ```

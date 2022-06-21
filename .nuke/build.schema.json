@@ -6,9 +6,11 @@
     "build": {
       "type": "object",
       "properties": {
+        "AutoStash": {
+          "type": "boolean"
+        },
         "Configuration": {
           "type": "string",
-          "description": "Configuration to build - Default is 'Debug' (local) or 'Release' (server)",
           "enum": [
             "Debug",
             "Release"
@@ -43,6 +45,13 @@
             "VSCode"
           ]
         },
+        "IgnoreFailedSources": {
+          "type": "boolean",
+          "description": "Ignore unreachable sources during Restore"
+        },
+        "Major": {
+          "type": "boolean"
+        },
         "NoLogo": {
           "type": "boolean",
           "description": "Disables displaying the NUKE logo"
@@ -72,11 +81,19 @@
           "items": {
             "type": "string",
             "enum": [
-              "Clean",
+              "Changelog",
               "Compile",
+              "Hotfix",
+              "Milestone",
+              "Pack",
+              "Release",
               "Restore"
             ]
           }
+        },
+        "Solution": {
+          "type": "string",
+          "description": "Path to a solution file that is automatically loaded"
         },
         "Target": {
           "type": "array",
@@ -84,8 +101,12 @@
           "items": {
             "type": "string",
             "enum": [
-              "Clean",
+              "Changelog",
               "Compile",
+              "Hotfix",
+              "Milestone",
+              "Pack",
+              "Release",
               "Restore"
             ]
           }

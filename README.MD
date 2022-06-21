@@ -35,4 +35,7 @@ git checkout -b feature/nuke.build
 git remote add origin git@github.com:tkvw/dotnet.git # Nuke needs a remote to work 
 nuke :setup
 nuke :add-package GitVersion.Tool
+# Create global.json file to set sdk used to run nuke build process
+git add global.json
+git commit -m "Added global.json"
 ```

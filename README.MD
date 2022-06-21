@@ -12,3 +12,11 @@ git add .
 git commit -m "Added README.MD"
 ```
 
+# Step 2: add a solution file
+
+```
+dotnet new sln --name Tkvw
+dotnet sln add .\src\Tkvw.Lang\Tkvw.Lang.csproj
+git add .
+git commit -m "Added solution file"
+```

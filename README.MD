@@ -20,3 +20,10 @@ dotnet sln add .\src\Tkvw.Lang\Tkvw.Lang.csproj
 git add .
 git commit -m "Added solution file"
 ```
+
+# Step 3: install global csharp tools if needed
+
+```shell
+dotnet tool install Nuke.GlobalTool --global # nuke build
+dotnet tool install --global GitVersion.Tool --version 5.* # https://gitversion.net/docs/usage/cli/installation
+```

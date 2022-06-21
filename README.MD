@@ -34,4 +34,5 @@ dotnet tool install --global GitVersion.Tool --version 5.* # https://gitversion.
 git checkout -b feature/nuke.build
 git remote add origin git@github.com:tkvw/dotnet.git # Nuke needs a remote to work 
 nuke :setup
+nuke :add-package GitVersion.Tool
 ```

@@ -30,7 +30,7 @@ partial class Build : NukeBuild, IHazGitVersion,IHazGitRepository, ICompile, IRe
     AbsolutePath OutputDirectory => RootDirectory / "output";
     AbsolutePath SourceDirectory => RootDirectory / "source";
 
-    const string MasterBranch = "master";
+    const string MasterBranch = "main";
     const string DevelopBranch = "develop";
     const string ReleaseBranchPrefix = "release";
     const string HotfixBranchPrefix = "hotfix";

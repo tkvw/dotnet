@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CBA1A547-EF4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tkvw.Lang", "src\Tkvw.Lang\Tkvw.Lang.csproj", "{DC38965C-15E2-4144-A60F-938BC5D553E1}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "_build", "build\_build.csproj", "{C991D94A-FE94-4D8F-BB97-E20BBF974D9B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -16,6 +18,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C991D94A-FE94-4D8F-BB97-E20BBF974D9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C991D94A-FE94-4D8F-BB97-E20BBF974D9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC38965C-15E2-4144-A60F-938BC5D553E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DC38965C-15E2-4144-A60F-938BC5D553E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC38965C-15E2-4144-A60F-938BC5D553E1}.Release|Any CPU.ActiveCfg = Release|Any CPU

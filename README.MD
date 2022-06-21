@@ -27,3 +27,11 @@ git commit -m "Added solution file"
 dotnet tool install Nuke.GlobalTool --global # nuke build
 dotnet tool install --global GitVersion.Tool --version 5.* # https://gitversion.net/docs/usage/cli/installation
 ```
+
+# Step 4: add a build project
+
+```shell
+git checkout -b feature/nuke.build
+git remote add origin git@github.com:tkvw/dotnet.git # Nuke needs a remote to work 
+nuke :setup
+```
